@@ -1,3 +1,12 @@
+<?php
+  session_start();  
+
+  if(!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] !== 'SIM') {
+    header('Location: index.php?login=erro2');
+  }
+
+?>
+
 <html>
   <head>
     <meta charset="utf-8" />
@@ -18,7 +27,7 @@
 
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="imagens/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
     </nav>
@@ -34,10 +43,10 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-6 d-flex justify-content-center">
-                  <img src="formulario_abrir_chamado.png" width="70" height="70">
+                  <img src="imagens/formulario_abrir_chamado.png" width="70" height="70">
                 </div>
                 <div class="col-6 d-flex justify-content-center">
-                  <img src="formulario_consultar_chamado.png" width="70" height="70">
+                  <img src="imagens/formulario_consultar_chamado.png" width="70" height="70">
                 </div>
               </div>
             </div>
