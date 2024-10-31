@@ -2,8 +2,6 @@
 
 session_start();
 
-
-
 $usuario_autenticado = false;
 
 // Usuários do sistema
