@@ -20,12 +20,12 @@ Construção de um site Help Desk utilizando HTML5, CSS, Bootstrap 4 e PHP.
 
 >Figura 3: Cadastro de chamados
 
-![Cadastro de chamados](imagens/Cadastro_chamados.png)
+![Cadastro de chamados](imagens/Abertura_chamado.png)
 
 
  >Figura 4: Consulta de chamados
 
-![Consulta de chamados](imagens/Consulta_chamados.png)
+![Consulta de chamados](imagens/Consulta_chamado.png)
 
  
  
